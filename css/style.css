@@ -1,0 +1,254 @@
+/* ----------------body  -----------------*/
+body {
+    background-color: rgb(0, 0, 0);
+
+}
+
+a:hover {
+    color: orange;
+    }
+    
+    p {
+        color: white
+    }
+
+/* ----------------header sttijlen -----------------*/
+nav {
+ background-color: black;
+ display: flex;
+ justify-content: center;
+
+ align-items: center;
+ 
+  
+}
+
+
+
+header nav ul {
+    list-style: none;
+    /* margin-right: 1em; */
+    display: flex;
+    text-align: center;
+    
+    
+    
+
+    
+}
+header nav ul li {
+    /* display: inline; */
+    /* margin-left: 2em;*/
+    /* margin-right: 2em; */
+    
+    margin-left: 2em;
+    margin-right: 2em;
+    
+
+    
+    
+   
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+
+/* ---------------- main  -----------------*/
+
+
+/* ----------------home -----------------*/
+
+    
+    
+
+
+.homeb img {
+    width: 100%;
+}
+ .homeb a {
+text-decoration: none;
+position: absolute;
+top: 490px;
+left: 75%;
+color: white;
+border: solid;
+padding: 0.3em;
+font-size: 1.5em;
+padding-left: 2em;
+padding-right: 2em;
+
+}
+
+.homeb h1 {
+    position: absolute;
+    top: 6em;
+    left: 65%;
+    color: white;
+    font-size: 2.5rem 
+
+}
+.homeb p {
+    position: absolute;
+    top: 4.5em;
+    left: 70%;
+    font-size: 3.7rem;
+}
+.homeb main article {
+    display: inline-block;
+    align-items: center;
+    
+
+
+
+}
+iframe {
+    border: none;
+    
+}
+
+
+.homeb section:nth-of-type(3){
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.homeb h2 {
+    color: white;
+    text-align: center;
+}
+
+
+
+/* ----------------inspiratie -----------------*/
+h1 {
+color: orange;
+text-align: center;
+}
+.inspo {
+    color: white;
+}
+
+.inspo div {
+    text-align: center;
+    font-size: 2em;
+}
+    
+
+.inspo section:nth-of-type(odd) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.inspo section:nth-of-type(even) {
+    display: flex;
+    flex-direction:row
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------productions -----------------*/
+ 
+.productions div {
+
+    display: flex;  
+    
+}
+.productions section div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.productions section {
+    display: flex;
+}
+
+.productions img {
+    width: 350px;
+    height: auto;
+}
+
+.productions h1 {
+    align-self: flex-start;
+}
+
+.productions h2 {
+    color: white;
+    text-align: center;
+}
+.productions h3 {
+    color: white;
+    text-align: center;
+
+}
+.productions section:nth-of-type(4) {
+    color: white;
+    width: 50%;
+    border-radius: 1em;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin: auto;
+    background-color:orange ;
+    font-size: 150%
+}
+
+.productions section:nth-of-type(4) article img {
+    justify-content: right;
+    
+
+    
+
+}
+.productions section:nth-of-type(4) article{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* ----------------about us  -----------------*/
+.about div {
+
+ display: flex; 
+
+}
+
+.about img {
+    
+    width: 30vw;
+    height: 100vh;
+    padding-left: 2em;
+}
+.about {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.article{
+    width: 60vw;
+    height: 100vh;
+    align-items: center;
+    
+    
+}
+
+
+/* ----------------footer stijlen  -----------------*/
+footer p {
+    text-align: center;
+  }
+
